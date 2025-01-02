@@ -1,6 +1,6 @@
 <h2>Do Until Loop</h2>
 
-<!-- Repeats a block of code until a condition becomes true. -->
+<!-- Repeats a block of code until a condition becomes true -->
 
 <%
 Dim number
