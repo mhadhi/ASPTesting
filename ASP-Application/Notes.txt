@@ -1,0 +1,11 @@
+
+
+
+
+Application Object: The blackboard that everyone in the class shares. The teacher writes information that applies to the entire class (all users).
+
+
+Use Application:
+
+When you need to store shared/global information.
+Example: Count of total users on the site, configuration settings, or messages visible to everyone.
