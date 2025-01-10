@@ -1,0 +1,38 @@
+ASP_AJAX/                                       
+|-- ajax.html
+|-- ajax_server.asp
+
+
+|-- suggest.html
+|-- gethint.asp
+
+
+--------------------------------------------------------------------------------------------------------
+readyState
+What It Is: A property of XMLHttpRequest that shows the current stage of the request.
+Stages of readyState:
+0: The request is not initialized.
+1: The request has been set up.
+2: The request has been sent.
+3: The request is in process (receiving a response from the server).
+4: The request is complete, and the server's response is ready.
+-------------------------------------------------------------------------------------------------------------
+
+status
+
+What It Is: A property of XMLHttpRequest that tells you if the server successfully handled your request.
+Common Status Codes:
+200: Success! The server found and returned the requested data.
+404: Not Found. The server couldn’t find the file you requested.
+500: Internal Server Error. Something went wrong on the server.
+Purpose: You check the status to ensure the server responded correctly before using the response.
+
+
+
+-----------------------------------------------------
+
+What is this.responseText?
+What It Is:
+
+this.responseText is a property of the XMLHttpRequest object.
+It contains the text data (response) sent back from the server.
